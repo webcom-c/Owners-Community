@@ -1,0 +1,91 @@
+function menu() {
+  document.getElementById("menu").style.display = "none";
+  document.getElementById("menu1").style.display = "flex";
+  document.getElementById("menup").style.display = "grid";
+}
+function menu1() {
+  document.getElementById("menu").style.display = "flex";
+  document.getElementById("menu1").style.display = "none";
+  document.getElementById("menu1").classList.add('out');
+  document.getElementById("menup").style.display = "none";
+}
+function akunsosmed() {
+  document.getElementById('akunsosmed').style.display = "grid";
+  document.getElementById('akunsosmed1').style.display = "grid";
+  document.getElementById('akunsosmed2').style.display = "grid";
+}
+function menuutama() {
+  document.body.innerHTML = `
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="Style.css">
+  <script src="Script.js"></script>
+  <script src="saluran.js"></script>
+  <script src="wa.js"></script>
+</head>
+<body>
+  
+  
+    <div class="card2" id="menu">
+      <button class="menu" onclick="menu()">≡</button>
+    </div>
+    <div class="card3" id="menu1">
+      <button class="menu" onclick="menu1()">x</button>
+    </div>
+    <div class="card1" id="menup">
+      <button class="menu1" onclick="pd()">Developer</button>
+    </div>
+    
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+  <div class="container">
+  <div class="card5">
+    <h1>Owners Community</h1>
+    <img src="oc.png" class="icon">
+  <br>
+  </div>
+  <div>
+    <h1>About We</h1>
+  </div>
+  <div class="card6">
+    <p>
+Komunitas ini merupakan ruang khusus bagi para pemilik saluran WhatsApp yang fokus membagikan addon Minecraft. Di sini, setiap admin saluran bisa saling berbagi tips, strategi konten, dan berkolaborasi untuk memperluas jangkauan saluran masing-masing. Tujuannya adalah menciptakan ekosistem kreator addon yang aktif, solid, dan saling mendukung satu sama lain.
+    </p>
+    <p>
+Dengan bergabung dalam komunitas ini, para pemilik saluran bisa bertukar informasi seputar cara menyusun konten yang menarik, menjaga kualitas postingan, dan berbagi pengalaman menghadapi audiens. Komunitas ini juga menjaga etika berbagi, seperti menghargai hasil karya kreator lain dan tidak menyebarkan ulang tanpa izin. Mari berkembang bersama lewat komunitas yang sehat dan profesional.
+    </p>
+    <br>
+    <center>
+      <h5>Gabung Sekarang!</h5>
+    <button class="tombolbiasa" onclick="join()">Gabung</button>
+    <br>
+    <br>
+    <h5>Lihat saluran yg sudah join</h5>
+    <button class="tombolbiasa" onclick="lihatsl()">Lihat</button>
+    </center>
+  </div>
+  <br>
+    <h4 class="akhir">Powered By Had</h4>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  </div>
+</body>
+</html>
+  `
+}
+function join() {
+  window.location.href = "https://wa.me/6283866317501?text=*Saya%20ingin%20bergabung%20komunitas%20pemilik%20saluran";
+}

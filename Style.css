@@ -1,0 +1,263 @@
+body {
+  background-color: black;
+  font-family: Monospace;
+  color: #39ff14;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.card {
+  width: 50%;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 0 20px #39ff14;
+  margin: 8px;
+  margin-bottom: 7px;
+  padding: 6px;
+  justify-content: center;
+  justify-items: center;
+}
+.card1 {
+  height: 7px;
+  border: 1px solid #39ff14;
+  border-radius: 3px;
+  box-shadow: 0 0 20px #39ff14;
+  display: none;
+  position: fixed;
+  top: 90px;
+  left: 30px;
+  animation: fadeinkanan 0.7s ease-in-out;
+  transition: opacity 1s, transform 1s;
+  z-index: 1;
+}
+.akhir {
+  display: flex;
+  animation: kedip 2s infinite;
+}
+
+@keyframes kedip {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.out {
+  animation: fadeoutkanan 1s ease-in-out;
+}
+@keyframes fadeinkanan {
+  0% {
+    opacity: 0;
+    transform: translateX(600px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fadeoutkanan {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+}
+.card2 {
+ width: 13%;
+ position: fixed;
+ top: 30px;
+ left: 30px;
+ border: none;
+ border-radius: 5px;
+ animation: fadein 0.8s ease-in-out;
+ z-index: 1;
+}
+.card3 {
+ width: 13%;
+ position: fixed;
+ top: 30px;
+ left: 30px;
+ border: none;
+ border-radius: 5px;
+ display: none;
+ animation: fadein 0.8s ease-in-out;
+ z-index: 1;
+}
+.card4 {
+ width: 80%;
+ border: 1px solid #39ff14;
+ color: #39ff14;
+ font-family: Monospace;
+ font-weight: bold;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ margin-bottom: 12px;
+ background-color: black;
+ border-radius: 5px;
+ display: none;
+ animation: fadein 0.8s ease-in-out;
+ z-index: 0;
+}
+.card5 {
+ width: 80%;
+ border: none;
+ color: #39ff14;
+ font-family: Monospace;
+ font-weight: bold;
+ text-align: center;
+ letter-spacing: 1px;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ margin-bottom: 0px;
+ background-color: black;
+ border-radius: 5px;
+ animation: fadein 0.8s ease-in-out;
+ z-index: 0;
+}
+.card6 {
+ width: 80%;
+ border: none;
+ box-shadow: 0 0 10px #39ff14;
+ color: #39ff14;
+ font-family: Monospace;
+ font-weight: bold;
+ justify-items: center;
+ justify-content: center;
+ font-size: 14px;
+ text-align: justify;
+ letter-spacing: 1px;
+ padding: 20px;
+ margin: 0;
+ background-color: black;
+ border-radius: 5px;
+ animation: fadein 0.8s ease-in-out;
+ z-index: 0;
+}
+.cardsl {
+ width: 80%;
+ border: none;
+ box-shadow: 0 0 10px #39ff14;
+ color: #39ff14;
+ font-family: Monospace;
+ font-weight: bold;
+ justify-items: center;
+ justify-content: center;
+ font-size: 14px;
+ text-align: center;
+ letter-spacing: 1px;
+ padding: 5px;
+ margin-bottom: 29px;
+ background-color: black;
+ border-radius: 5px;
+ animation: fadein 0.8s ease-in-out;
+ z-index: 0;
+}
+.cardpf {
+ width: 90%;
+ border: none;
+ box-shadow: 0 0 10px #39ff14;
+ color: #39ff14;
+ font-family: Monospace;
+ font-weight: bold;
+ justify-items: center;
+ justify-content: center;
+ font-size: 14px;
+ text-align: center;
+ letter-spacing: 1px;
+ padding: 5px;
+ margin-bottom: 29px;
+ background-color: black;
+ border-radius: 5px;
+ animation: fadein 0.8s ease-in-out;
+ z-index: 0;
+}
+.menu {
+  width: 80%;
+  font-size: 29px;
+  color: #39ff14;
+  background-color: black;
+  border: 1px solid #39ff14;
+  border-radius: 4px;
+  padding: 10px;
+}
+h1 {
+  animation: fadein 1s ease-in-out;
+}
+.tombolbiasa {
+  width: 100%;
+  font-size: 15px;
+  font-family: Monospace;
+  color: #39ff14;
+  font-weight: 660;
+  background-color: black;
+  border: 1px solid #39ff14;
+  border-radius: 4px;
+  padding: 10px;
+}
+.tombolbiasa1 {
+  width: 80%;
+  font-size: 15px;
+  font-family: Monospace;
+  color: #39ff14;
+  font-weight: 660;
+  background-color: black;
+  border: 1px solid #39ff14;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.tombolsl {
+  width: 50%;
+  font-size: 15px;
+  font-family: Monospace;
+  font-weight: 700;
+  color: #39ff14;
+  background-color: black;
+  border: 1px solid #39ff14;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.judul {
+  margin: 0;
+  text-align: center;
+}
+.icon {
+  width: 30%;
+  border-radius: 200px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+.menu1 {
+  font-family: Monospace;
+  width: 200px;
+  color: #39ff14;
+  background-color: black;
+  border: 0.7px solid #39ff14;
+  border-radius: 0;
+  padding: 15px;
+}
