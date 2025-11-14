@@ -25,7 +25,7 @@ function pd() {
         <br>
         <h4>Medsos :</h4>
         <button class="tombolbiasa1" onclick="tt()">Tiktok</button>
-        <button class="tombolbiasa1" onclick="ig()">Instagran</button>
+        <button class="tombolbiasa1" onclick="ig()">Instagram</button>
         <button class="tombolbiasa1" onclick="cw()">Channel Wa</button>
         <button class="tombolbiasa1" onclick="kontak()">Kontak</button>
  </div>
